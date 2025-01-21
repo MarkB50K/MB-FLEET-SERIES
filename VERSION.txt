@@ -1,10 +1,8 @@
-VERSION 1.0.1
-- fixed bug where SUBs were getting charged double points to move each hex during action cycle
-- fixed bug where DESTINATION markers were not being cleared directly.  If you've already got some destination markers that are orphaned, you'll need to restart to remove them.
-- added button to the top menu bar to view destroyed units
-- added popup during automated ship movement to alert player that any new detections occured
-- prevented auto-scrolling of map when dragging markers.  Was too jarring.
-- small tweaks to the display text for selected units
+VERSION 1.0.2
+- During Strategic Recon, game will warn you if you don't assign your aircraft.
+- Surface High Speed was not raising the speed correctly
+- In Action Orders phase, option to set unit to DONE for this Action turn.  If all combats complete and no movement points, you'll get the option.  Not for Air.
+- small tweaks
 
 ----------------------------------------------------------------
 
@@ -25,6 +23,7 @@ Known Features not implemented
 - Close Combat.  All other combat types are available.  I want to confirm those work first before adding Close Combat.
 - Random Occurances
 - Amphibious landing or supply drop off.  You can move ships to port to simulate this, but I havent added the actions to unload
+- Aerial Refueling/Extended Range/High Mission Profile
 
 Planned Features in progress:
 - All of the above plus
