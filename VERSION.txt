@@ -1,8 +1,14 @@
-VERSION 1.0.4
-- Air Orders phase was not limiting to just Air units
-- Added "Sequence of Play" button to Window top menu to show phases and where you are in the Sequence of play
-- OOPS! Torp combat was declarable but never resolved.
+If you've already attempted to activate air off of carriers, you'll need to restart your scenario.  hopefully you saved your game during SETUP.  Apologies.
 
+VERSION 1.0.5
+- BUG FIXED: Activating units off of carriers doesnt place activation group on the map
+- BUG FIXED: Error in Action Orders phase where list wasn't being cleared after cycling.
+- Removed "RIGHT CLICK" mentions.  Game displays unit menus now, this was an old feature.
+- NEW FEATURE: EXTENDED RANGE
+- NEW FEATURE: HIGH MISSION PROFILE
+- NEW FEATURE: REDUCED RANGE
+- NEW FEATURE: MID-AIR REFUELING
+all of these features are options when activating an air unit.  MID-AIR will be cancelled in mid-flight if within first 10 hexes of travel any INT CAP is within 4 hexes
 ----------------------------------------------------------------
 
 A combination of all the VG Fleet Series game into a single .NET app
@@ -23,6 +29,7 @@ Known Features not implemented
 - Random Occurances
 - Amphibious landing or supply drop off.  You can move ships to port to simulate this, but I havent added the actions to unload
 - Aerial Refueling/Extended Range/High Mission Profile
+- Mine Clearing
 
 Planned Features in progress:
 - All of the above plus
