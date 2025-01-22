@@ -1,9 +1,7 @@
-VERSION 1.0.3
-- Adjusted clean up of temporary objects (destinations, combats, targets) during action phase
-- Added alert message during automation when a planned combat is not able to be conducted, either attacker is no longer able to attack or targets have moved
-- Fixed issue where SUBs were being STRAT detected by enemy bases
-- Fixed issue where CAP interceptions were not being initiated properly
-- AIR TO AIR DETECTION: Added logic to temporarily detect AIR that are near each other during the Action Phase.  As air moves or activates, the game will show you enemy air.  Any air within 4 hexes of an AEW or INT, or within 1 hex of any other type, are "Admin" detected so the enemy can see you.  As you move out of range, the air will disappear.
+VERSION 1.0.4
+- Air Orders phase was not limiting to just Air units
+- Added "Sequence of Play" button to Window top menu to show phases and where you are in the Sequence of play
+- OOPS! Torp combat was declarable but never resolved.
 
 ----------------------------------------------------------------
 
