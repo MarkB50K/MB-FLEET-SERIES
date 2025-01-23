@@ -1,9 +1,6 @@
-VERSION 1.0.6
-- BUG FIXED: enemy detected SUBs were not targetable by ASW attacks
-- BUG FIXED: SUB ASW attacks were not enabling due to trying to use ASW logistical points (SUBs use the TORP pts)
-- BUG FIXED: SUB ASW combats not qualifying when they should
-- BUG FIXED: forgot to enable INTENSIVE and MAXIMUM level TORP attacks
-- popups after automation to let user know if detections or combats happened, no specifics, just in general
+VERSION 1.0.7
+- RANDOM EVENTS: Added support during AM turns for random events.  Slight combination between 5th and 3rd fleet rules (replaced one Command Failure with a dual Aircraft replacement for both sides)
+- ADDED CONFIGURATION VARIABLE:  _CONFIG_COMMAND_FAILURE_AFFECTS_ACTIVATIONS_AND_FRIENDLY_CAP.  5th and 3rd fleet rules differ on what is affected by Command Failure.  if this is set to TRUE in the save game file, activations cannot happen in Command Failure zones, and friendly cap assist cannot happen.  Either way, strategic missions are not allowed in affected zones.
 
 ----------------------------------------------------------------
 
