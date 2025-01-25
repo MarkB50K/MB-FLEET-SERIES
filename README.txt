@@ -16,3 +16,28 @@ the directory structure in the CWApp directory is important.  Some important not
 
 
 3.  Click the .EXE file,  the game should take a few seconds and popup
+
+APPLICATION INFORMATION:
+----------------------------------------------------------------
+
+A combination of all the VG Fleet Series game into a single .NET app
+
+Overall Features:
+- 3rd Fleet sequence of play
+- Combined Orders of Battle from all 5 games
+- Hundreds of expansion ships/units that were researched for the 1990-1991 timeframe of the game
+
+Main Differences from physical game:
+- Enemy units are not shown on map unless they are detected
+- Action Sequence is done differently.  Each side gives orders to all active units.  Automation executes moves and attacks.  Still adheres to combat and detection rules.
+- Strategic Movement.  Units can either start off-map or travel off-map between the formal map areas from the game.  Global coverage.
+- Game will not allow units of both sides to start game in same hex, but during automation, game will allow it.  Ships all move one hex at a time so you should be able to avoid that if you like, but the game doesnt care.
+
+Known Features not implemented
+- Close Combat.  All other combat types are available.  I want to confirm those work first before adding Close Combat.
+- Mine Clearing
+
+Planned Features in progress:
+- All of the above plus
+- a setting that will enable aircraft to be able to detect enemy surface ships during action phase.
+- Land War component.  Each logistical zone will have a troop level and a supply level.  Troops with low supplies will perform worse.  Game will automatically calculate losses over time which will result in areas being conquered by either side.  Still working on the rules for this.
