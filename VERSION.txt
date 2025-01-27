@@ -1,3 +1,6 @@
-VERSION 1.0.12
-- LOADING/UNLOAD TROOPS AND SUPPLIES.  Added to the game.  Load from any Friendly port, unload in any port
-- OBJECTIVE markers can now be created in Setup to establish priorities by the scenario designer
+VERSION 1.1
+- Several new features that will make the Action phase more dynamic
+- Air units can now detect each other as they move in the Action Phase.   INT/AEW can see out 4 spaces since that is when CAP can react even partially.  Rest can see 1 hex out.
+- Optional: Air Units and Surface Units can now detect each other.  Air units have a new value called SURFACESEARCHRECON that goes from 0 - 2 depending on airframe, with some air units like E2C, ATL, and T95 recon set to 3.  Surface units with Area Anti Air can detect air out 1 hex, Long range Anti Air can detect out to 2.  So surface with CAP over can still see farthest.
+- Optional: Air Units that stray too close to Surface can be attacked by a new combat type, SURFACE TO AIR (AAA).  Only ships with Area Anti Air or Long Range Anti Air can do this combat.  Modifiers and combat are done just like the Defensive fire portion of Bombing Combat.
+- Optional: SSM, Cruise Missile, AAA, and Bombing Combat can now be coordinated between multiple activated stacks that are all targeting the same location with the same attack.  ASW and Torpedo combat is not something that is highly coordinateable so this is not affected.
