@@ -34,10 +34,7 @@ Main Differences from physical game:
 - Game will not allow units of both sides to start game in same hex, but during automation, game will allow it.  Ships all move one hex at a time so you should be able to avoid that if you like, but the game doesnt care.
 
 Known Features not implemented
-- Close Combat.  All other combat types are available.  I want to confirm those work first before adding Close Combat.
-- Mine Clearing
+- None
 
 Planned Features in progress:
-- All of the above plus
-- a setting that will enable aircraft to be able to detect enemy surface ships during action phase.
-- Land War component.  Each logistical zone will have a troop level and a supply level.  Troops with low supplies will perform worse.  Game will automatically calculate losses over time which will result in areas being conquered by either side.  Still working on the rules for this.
+- None
