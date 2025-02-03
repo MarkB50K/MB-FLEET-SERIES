@@ -1,6 +1,11 @@
-VERSION 1.1
-- Several new features that will make the Action phase more dynamic
-- Air units can now detect each other as they move in the Action Phase.   INT/AEW can see out 4 spaces since that is when CAP can react even partially.  Rest can see 1 hex out.
-- Optional: Air Units and Surface Units can now detect each other.  Air units have a new value called SURFACESEARCHRECON that goes from 0 - 2 depending on airframe, with some air units like E2C, ATL, and T95 recon set to 3.  Surface units with Area Anti Air can detect air out 1 hex, Long range Anti Air can detect out to 2.  So surface with CAP over can still see farthest.
-- Optional: Air Units that stray too close to Surface can be attacked by a new combat type, SURFACE TO AIR (AAA).  Only ships with Area Anti Air or Long Range Anti Air can do this combat.  Modifiers and combat are done just like the Defensive fire portion of Bombing Combat.
-- Optional: SSM, Cruise Missile, AAA, and Bombing Combat can now be coordinated between multiple activated stacks that are all targeting the same location with the same attack.  ASW and Torpedo combat is not something that is highly coordinateable so this is not affected.
+VERSION 2.0
+- First Version of Release Quality.  Testing of Game Turns have been successfully tested without any remaining bugs.
+- New:  Close Combat is now a choosable combat type
+- New:  Surface Anti-Air (optional)
+- New:  Attacks of same type against same target from different units are combined in Resolution phase (optional)
+- New:  Land Zones have intrinsic troop and supply values and player can now direct a background Land War (optional)
+- New:  Mine Combat 
+- New:  Air Units can now detect Surface and vice-versa (optional)
+- New:  Air Units can enter into RECON mode during action cycle, at the cost of additional movement (optional)
+- New:  Action phase is completely overhauled to allow multiple concurrent movements across both sides
+- New:  Due to concurrent movement, non-moving units can be now detected if they sit consecutive movement cycles in another units LDZ (optional)
