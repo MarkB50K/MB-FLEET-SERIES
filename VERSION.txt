@@ -1,11 +1,3 @@
-VERSION 2.0
-- First Version of Release Quality.  Testing of Game Turns have been successfully tested without any remaining bugs.
-- New:  Close Combat is now a choosable combat type
-- New:  Surface Anti-Air (optional)
-- New:  Attacks of same type against same target from different units are combined in Resolution phase (optional)
-- New:  Land Zones have intrinsic troop and supply values and player can now direct a background Land War (optional)
-- New:  Mine Combat 
-- New:  Air Units can now detect Surface and vice-versa (optional)
-- New:  Air Units can enter into RECON mode during action cycle, at the cost of additional movement (optional)
-- New:  Action phase is completely overhauled to allow multiple concurrent movements across both sides
-- New:  Due to concurrent movement, non-moving units can be now detected if they sit consecutive movement cycles in another units LDZ (optional)
+VERSION 2.1
+- NEW:  App will now start differently, no more picking a directory file
+- NEW:  On the initial menu, you can select the first option to give you an APP TOUR, showing each of the buttons and what they do, and familiarize you with the User Interface (UI)
