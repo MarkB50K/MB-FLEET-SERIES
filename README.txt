@@ -18,7 +18,9 @@ Main Differences from physical game:
 - Game will not allow units of both sides to start game in same hex, but during automation, game will allow it.  Ships all move one hex at a time so you should be able to avoid that if you like, but the game doesnt care.
 
 Known Features not implemented
-- None
+- Tactical Nuclear Warfare
+- Close Defense Base Hexes
+- Pasdaran Base Hexes
 
 Planned Features in progress:
-- None
+- Close Defense Hexes (if players consistently ask for it)
