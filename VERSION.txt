@@ -1,3 +1,3 @@
-VERSION 2.1
-- NEW:  App will now start differently, no more picking a directory file
-- NEW:  On the initial menu, you can select the first option to give you an APP TOUR, showing each of the buttons and what they do, and familiarize you with the User Interface (UI)
+MSI INSTALLER VERSION 1.0.8
+- Slight tweak to position of Gulf of Aden Enroute area
+- You can now designate CS, OL, and AM units as REMOVABLE FROM PLAY
